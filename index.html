@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Interactive rating component</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+  <main>
+    <div class="rating-state">
+      <!-- Rating state start -->
+
+      <div class="star-container">
+        <img src="./images/icon-star.svg" id="star-icon" />
+      </div>
+
+      <h1>How did we do?</h1>
+
+      <h3 id="rating-p">Please let us know how we did with your support request. All feedback is appreciated
+        to help us improve our offering!</h3>
+
+      <div class="numbers">
+          <input type="radio" name="rating" class="input" id="input-1">
+          <label for="input-1" class="nb" id="one">1</label>
+          <input type="radio" name="rating" class="input" id="input-2">
+          <label for="input-2" class="nb" id="two">2</label>
+          <input type="radio" name="rating" class="input" id="input-3">
+          <label for="input-3" class="nb" id="three">3</label>
+          <input type="radio" name="rating" class="input" id="input-4">
+          <label for="input-4" class="nb" id="four">4</label>
+          <input type="radio" name="rating" class="input" id="input-5">
+          <label for="input-5" class="nb" id="five">5</label>
+      </div>
+
+      <input type="button" name="submit" value="SUBMIT" id="submit">
+
+      <!-- Rating state end -->
+    </div>
+    <!-- Thank you state start -->
+    <div class="thank-state">
+
+      <img src="./images/illustration-thank-you.svg" alt="illustration of a phone and a credit card"
+        id="phone-illustration" />
+      <!-- Text rating js interaction -->
+      <h2 id="selected">You selected<span id="note"></span>out of 5</h2>
+
+      <h2 id="thank">Thank you!</h2>
+
+      <h3 id="thank-p">We appreciate you taking the time to give a rating. If you ever need more support,
+        don’t hesitate to get in touch!</h3>
+
+      <!-- Thank you state end -->
+    </div>
+  </main>
+</body>
+
+</html>
