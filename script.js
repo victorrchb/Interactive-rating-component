@@ -31,7 +31,7 @@ nbTwo.addEventListener('click', ()=> {
         } else {
             rating.style.display = 'flex'
         }
-    })
+    }) 
 })
 
 nbThree.addEventListener('click', ()=> {
