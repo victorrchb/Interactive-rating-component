@@ -105,4 +105,4 @@ because the buttons weren't showing any checked state on the page.
 ## Author
 
 - Frontend Mentor - [@Obamasixgaming](https://www.frontendmentor.io/profile/Obamasixgaming)
-- Github - [Obamasixgaming](https://github.com/Obamasixgaming)
+- Github - [Obamasixgaming](https://github.com/victorrchb)
